@@ -1,6 +1,12 @@
 
 # vue-input-link-document
 
+## Description
+
+An input field to link a document to another from same or different database. Useful for multi-module projects. 
+
+Just set a data collection, pick a document from it and have its _id as value.
+
 ## Use example
 
     <input-document

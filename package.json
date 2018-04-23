@@ -2,7 +2,7 @@
   "name": "vue-input-link-document",
   "version": "1.0.0",
   "description": "Set a data collection, pick a document from it and have its _id as value",
-  "main": "index.vue",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

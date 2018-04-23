@@ -7,6 +7,12 @@ An input field to link a document to another from same or different database. Us
 
 Just set a data collection, pick a document from it and have its _id as value.
 
+## Install
+
+    import vueInputLinkDocument from 'vue-input-link-document'
+
+    Vue.use(vueInputLinkDocument)
+
 ## Use example
 
     <input-document

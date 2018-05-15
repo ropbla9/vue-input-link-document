@@ -3,9 +3,6 @@
   .input-document {
     width: 100%;
   }
-  .input-document input {
-    font-size: 70%
-  }
 
 </style>
 

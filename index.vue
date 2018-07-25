@@ -15,7 +15,8 @@
       :list="datalistID"
       :class="inputClass"
       :placeholder="placeholder"
-      :required="required" />
+      :required="required" 
+      :readonly="readonly"/>
     <datalist :id="datalistID">
       <option v-for="str in datalistStrings" :value="str" />
     </datalist>
@@ -43,7 +44,8 @@
       datalistID: String,
       inputClass: String,
       placeholder: String,
-      required: Boolean
+      required: Boolean,
+      readonly: Boolean 
     },
     computed: {
       datalistStrings() {
